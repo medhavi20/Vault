@@ -1,7 +1,7 @@
 app:
     name: Vault
     code: VAULT
-    notify: rniranjan@ecloudcontrol.com
+    notify: mmehrotra@ecloudcontrol.com
 
 build:
     version: 0.4
@@ -11,7 +11,7 @@ build:
     image_template: vault-1.2
 
 deploy:
-    context: niranjan-ragi/DEV
+    context: medhavi20/DEV
     type: statefulset
     replicas: 1
     port:
@@ -29,6 +29,6 @@ volumes:
     size: 5Gi
 
 properties:
-    revision: 07
+    revision: 08
     ENABLE_AUTO_PASSWORD: True
     

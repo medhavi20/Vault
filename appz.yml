@@ -11,7 +11,7 @@ build:
     image_template: vault-1.16
 
 deploy:
-    context: medhavi/DEV
+    context: medhavi20/DEV
     type: statefulset
     ingress: none
     replicas: 1
